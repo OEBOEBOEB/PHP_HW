@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+    font: 14px/25px "微軟正黑體";
+    color: #292929;
+    background-image: url("../img/0.jpg");
+    background-repeat: no-repeat;
+}
+
+img{
+	max-width: 100%;
+}
+.clear{
+	clear: both;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+.head{
+	margin-bottom: 35px;
+}
+.main{
+	width: 100%;
+	position: relative;
+}
+.main-data{
+	background: #292929;
+	width: 30%;
+	padding: 5%;
+	opacity: 0.76;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+.main-data h2{
+	color: #FFF;
+	font-weight: 600;
+	font-size: 54px;
+	text-align: center;
+	line-height: 1.5;
+}
+.main-data h3{
+	color: #FFF;
+	font-weight: 600;
+	font-size: 36px;
+	text-align: left;
+	line-height: 1.5;
+}
+.content{
+	margin: 0 auto;
+}
+.input-data p{
+	width: 400px;
+	margin: 0 auto;
+	padding: 15px;
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	color: #FFF;
+}
+.input-data span{
+	color: red;
+}
+.input-data p span{
+	font-size: 16px;
+}
+.input-data input{
+	font-size: 20px;
+	width: 170px;
+	padding: 3px;
+	background-color: #F0F8FF;
+	border: none;
+	outline: none; 
+}
+#radio-wdt60{
+	width: 60px;
+}
+.post-data{
+	width: 400px;
+	padding: 20px;
+	margin: 0 auto;	
+}
+#post-btn{
+	width: 80px;
+	padding: 3px 5px;
+	margin-left: 8px;
+	border-radius: 2px;
+	font-family: Microsoft JhengHei;
+	font-size: 16px;
+  	background-color: #F0F8FF;
+  	border: none;
+  	cursor: pointer;
+}
+#post-btn:hover{
+	color: #F0F8FF;
+	background: #292929;	
+	transition: 0.4s;
+}
+
+.footer{
+	margin-top: 50px;
+	width: 100%;
+	background: #292929;
+	opacity: 0.87;
+	padding: 1%;
+}
+.footer p{
+	text-align: center;
+	color: #FFF;
+}
